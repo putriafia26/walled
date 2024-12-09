@@ -7,9 +7,9 @@ function NavItems({ menu }) {
     <ul className="flex gap-x-8 text-black">
       {menu.map((item) => {
         return (
-          <a
+          <navLink
             key={item.title}
-            href={item.link}
+            to={item.link}
             className={`${
               activeTab === item.title
                 ? "text-[#19918F] font-bold"
@@ -18,7 +18,7 @@ function NavItems({ menu }) {
             onClick={() => setActiveTab(item.title)}
           >
             {item.title}
-          </a>
+          </navLink>
         );
       })}
     </ul>
