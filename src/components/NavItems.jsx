@@ -1,4 +1,5 @@
 import { useState } from "react";
+import { NavLink} from "react-router"
 
 function NavItems({ menu }) {
   const [activeTab, setActiveTab] = useState("Dashboard");
@@ -7,7 +8,7 @@ function NavItems({ menu }) {
     <ul className="flex gap-x-8 text-black">
       {menu.map((item) => {
         return (
-          <navLink
+          <NavLink
             key={item.title}
             to={item.link}
             className={`${
@@ -18,7 +19,7 @@ function NavItems({ menu }) {
             onClick={() => setActiveTab(item.title)}
           >
             {item.title}
-          </navLink>
+          </NavLink>
         );
       })}
     </ul>

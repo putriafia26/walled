@@ -1,14 +1,13 @@
-import {Outlet} from 'react-router';
-import Navbar from '../components/Navbar';
-import Hero from '../components/Hero';
+import { Outlet } from "react-router";
+import Navbar from "../components/Navbar";
 
-function DashboardLayout(){
-    return(
-        <>
-        <Navbar/>
-        <Hero/>
-        </>
-    );
+function DashboardLayout() {
+  return (
+    <>
+      <Navbar />
+      <Outlet />
+    </>
+  );
 }
 
 export default DashboardLayout;
