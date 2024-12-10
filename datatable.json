@@ -1,0 +1,8 @@
+{
+    "users": [
+        {"id": 1, "Date & Time": "20.10 - 30 June 2024", "Type": "DEBIT", "From/To": 02833, "Description": "kopi", "Amount":"125000"},
+        {"id": 2, "Date & Time": "20.10 - 30 June 2024", "Type": "KREDIT", "From/To": 02833, "Description": "kopi", "Amount":"125000"},
+        {"id": 3, "Date & Time": "20.10 - 30 June 2024", "Type": "DEBIT", "From/To": 02833, "Description": "kopi", "Amount":"125000"},
+        {"id": 4, "Date & Time": "20.10 - 30 June 2024", "Type": "KREDIT", "From/To": 02833, "Description": "kopi", "Amount":"125000"}
+    ]
+}
